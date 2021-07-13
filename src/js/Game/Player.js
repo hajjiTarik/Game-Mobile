@@ -18,11 +18,11 @@ class Player {
   }
 
   moveLeft() {
-    this.velocityX -= 1;
+    this.velocityX -= 3;
   }
 
   moveRight() {
-    this.velocityX += 1;
+    this.velocityX += 3;
   }
 
   update() {

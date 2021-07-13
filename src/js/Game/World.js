@@ -3,7 +3,7 @@ import Player from "./Player";
 class World {
   constructor(GameInstance, options = {}) {
     this.backgroundColor = options.backgroundColor ?? "rgb(0,159,252)";
-    this.friction = options.friction ?? 0.9;
+    this.friction = options.friction ?? 0.8;
     this.gravity = options.gravity ?? 3;
     this.player = new Player(0, 0);
     this.height = options.height ?? 400;
